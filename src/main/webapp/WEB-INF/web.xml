@@ -22,4 +22,17 @@
         <url-pattern>/SearchFile</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <!-- 此处Servletname跟WEB-INF目录下smart-servlet.xml名称要一致 -->
+        <servlet-name>FileDownload</servlet-name>
+        <servlet-class>
+            com.luceneo.web.controller.FileDownloadServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FileDownload</servlet-name>
+        <url-pattern>/FileDownload</url-pattern>
+    </servlet-mapping>
+
 </web-app>

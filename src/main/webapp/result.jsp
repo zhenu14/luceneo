@@ -61,7 +61,7 @@
 					<%=fm.getTitle().split("\\.")[0]%>
 				</h4>
 				<h3>
-					<a href="FileDownloadServlet?filename=
+					<a href="FileDownload?filename=
 					<%=regexHtml.delHtmlTag(fm.getTitle())%>">点击下载</a>
 				</h3>
 			</div>

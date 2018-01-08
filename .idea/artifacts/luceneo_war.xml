@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="luceneo:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="luceneo-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="luceneo:war exploded" />
-    </root>
-  </artifact>
-</component>

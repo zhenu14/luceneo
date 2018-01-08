@@ -39,8 +39,8 @@ public class SearchFileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //索引路径
-//        String indexpathStr = request.getServletContext().getRealPath("/indexdir");
-        String indexpathStr = "C:/ideaCode/luceneo/indexdir";
+        String indexpathStr = request.getServletContext().getRealPath("/indexdir");
+//        String indexpathStr = "C:/ideaCode/luceneo/indexdir";
         //接收查询字符串
         String query = request.getParameter("query");
         //编码格式转换
