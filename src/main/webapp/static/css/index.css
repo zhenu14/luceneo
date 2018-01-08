@@ -1,0 +1,63 @@
+body {
+	margin: 0 auto;
+}
+
+.indexbox {
+	width: 600px;
+	height: 400px;
+	margin: 150px auto;
+	border: 1px solid #cccccc;
+}
+
+.logo {
+	height: 120px;
+	width: 50%;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.searchform {
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.searchform input[type=text] {
+	width: 75%;
+	height: 25px;
+	outline: none;
+	margin: 0;
+}
+
+.searchform input[type=submit] {
+	width: 15%;
+	height: 31px;
+	vertical-align: middle;
+	border: 0;
+	background-color: #2367ff;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 31px;
+	border: 0px;
+	padding: 0;
+	margin: 0;
+}
+
+.info {
+	height: 80px;
+	box-sizing: border-box;
+}
+
+.info p {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+}

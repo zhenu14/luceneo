@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+
+body {
+	max-width: 960px;
+	height: auto;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	height: 80px;
+	width: 120px;
+}
+
+.searchbox {
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	border: 0px solid #cccccc;
+}
+
+.searchform {
+	width: 100%;
+	height: 40px;
+	border: 0px solid #cccccc;
+	margin-left: 140px;
+	padding-top: 30px;
+}
+
+.searchbox h1 {
+	background-color: #175db1;
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center;
+	width: 60%;
+}
+
+.searchbox input[type=text] {
+	width: 75%;
+	height: 25px;
+	outline: none;
+	margin: 0;
+}
+
+.searchbox input[type=submit] {
+	width: 15%;
+	vertical-align: middle;
+	border: 0;
+	margin: -5px;
+	line-height: 25px;
+	font-size: 18px;
+	background-color: #2367ff;
+	color: #ffffff;
+}
+
+/*******result.jsp *******/
+.result {
+	width: 675px;
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+.itemtop {
+	width: 100%;
+	height: 25px;
+}
+
+.itembuttom {
+	margin: 0;
+	padding: 0;
+}
+
+.item h4 {
+	color: #11009e;
+	font-size: 14px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.item p {
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.item h3 {
+	background: #239b6d;
+	color: #ffffff;
+	float: right;
+	margin: 0;
+}
+
+.item h3 a:link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.item h3 a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+img {
+	display: inline;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+.itemline {
+	width: 100%;
+	border: none;
+	border-top: 1px dashed #0066CC;
+}
+
+.footer {
+	width: 675px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #808080;
+}
